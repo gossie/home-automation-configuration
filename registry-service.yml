@@ -1,0 +1,22 @@
+server:
+  port: 8761
+
+spring:
+  cloud:
+    config:
+      fail-fast: true
+      retry:
+        initialInterval: 5000
+        maxAttempts: 5
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+logging:
+  level:
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
