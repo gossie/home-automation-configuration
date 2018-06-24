@@ -1,0 +1,5 @@
+# eureka.instance.prefer-ip-address=true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry-service:8080
