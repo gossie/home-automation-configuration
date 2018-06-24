@@ -1,13 +1,5 @@
 spring:
   cloud:
-    config:
-      fail-fast: true
-      retry:
-        initialInterval: 5000
-        maxAttempts: 5
-
-spring:
-  cloud:
     stream:
       bindings:
         output:

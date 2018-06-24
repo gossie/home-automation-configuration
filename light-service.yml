@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    config:
-      fail-fast: true
-      retry:
-        initialInterval: 5000
-        maxAttempts: 5
