@@ -1,11 +1,13 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://registry-service:8080/eureka
-
 spring:
   cloud:
     stream:
       bindings:
         input:
           destination: rooms
+  rabbit:
+    host: rabbitmq
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry-service:8080/eureka
