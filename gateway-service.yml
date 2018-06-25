@@ -4,7 +4,7 @@ spring:
       bindings:
         output:
           destination: rooms
-  rabbit:
+  rabbitmq:
     host: rabbitmq
 
 eureka:
