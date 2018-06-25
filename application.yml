@@ -1,6 +1,11 @@
 server:
   port: 8080
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${REGISTRY_HOST}:${REGISTRY_PORT}/eureka
+
 management:
   endpoints:
     web:
